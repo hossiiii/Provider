@@ -34,7 +34,7 @@ class MyApp extends StatelessWidget {
                       //TODO
                       Navigator.push(
                         context,
-                        MaterialPageRoute(builder: (context) => BookList()),
+                        MaterialPageRoute(builder: (context) => BookListPage()),
                       );
                     },
                   ),
